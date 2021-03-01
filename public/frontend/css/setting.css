@@ -1,0 +1,46 @@
+/*// global variable*/
+
+:root {
+    --background-main-color: #f5f6f7;
+    --black-main-color: #252525;
+     /* màu xám cho background*/
+  --background-main-color2: #c1c1c1;
+  /* màu da cam chủ đạo*/
+  --yellow-main-color: #ff8e4a;
+  /* màu xanh chủ đạo */
+  --green-main-color: #95be18;
+  --xam-nhat: #f5f6f7;
+    --font-size-1: 1.5rem;
+    --font-size-2: 2.5rem;
+    --font-weight: inherit;
+    --font-family: "Josefin Sans", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-size: var(--font-size-1);
+    font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}

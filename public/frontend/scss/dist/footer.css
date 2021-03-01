@@ -1,0 +1,57 @@
+footer {
+  background-image: url(../images/bg_footer.jpg);
+}
+footer .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer .container .title_header {
+  justify-content: space-between;
+  margin: 15px 0px;
+  line-height: 24px;
+}
+footer .container .title_header h2 {
+  font-size: var(--font-size-2);
+  font-weight: bold;
+  font-family: Sansita;
+}
+footer .container .title_header span {
+  padding-top: 25px;
+}
+footer .container .title_header span a {
+  color: var(--black-main-color);
+}
+footer .container .title_header span a i {
+  margin-left: 3px;
+}
+footer .container .list-item {
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+footer .container .list-item .item {
+  padding: 30px 15px 25px 15px;
+  width: 33.333%;
+}
+footer .container .list-item .item_img {
+  display: block;
+  max-width: 100%;
+  height: 57px;
+}
+footer .container .list-item .item-title {
+  margin-left: 20px;
+}
+footer .container .list-item .item-title .item-title-desc {
+  margin: 0px;
+  font-size: var(--font-size-1);
+  font-weight: inherit;
+}
+footer .container .list-item .item-title .item-title-desc a {
+  font-size: 1.6rem;
+  color: var(--black-main-color);
+  line-height: 21px;
+}
+@media (max-width: 612px) {
+  footer .container .list-item .item {
+    flex-grow: 0.7;
+  }
+}

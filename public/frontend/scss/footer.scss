@@ -1,0 +1,65 @@
+// bắt đầu thẻ footer
+footer {
+    background-image: url(../images/bg_footer.jpg);
+    .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        .title_header {
+            justify-content: space-between;
+            margin: 15px 0px;
+            line-height: 24px;
+            h2 {
+                font-size: var(--font-size-2);
+                font-weight: bold;
+                font-family: Sansita;
+            }
+            span {
+                padding-top: 25px;
+                a {
+                    color: var(--black-main-color);
+                    i {
+                        margin-left: 3px;
+                    }
+                }
+            }
+        }
+        .list-item {
+            background-color: #fff;
+            flex-wrap: wrap;
+            .item {
+                padding: 30px 15px 25px 15px;
+                width: 33.333%;
+                &_img {
+                    display: block;
+                    max-width: 100%;
+                    height: 57px;
+                }
+                &-title {
+                    margin-left: 20px;
+                    .item-title-desc {
+                        margin: 0px;
+                        font-size: var(--font-size-1);
+                        font-weight: inherit;
+                        a {
+                            font-size: 1.6rem;
+                            color: var(--black-main-color);
+                            line-height: 21px;
+                        }
+                    }
+                }
+            }
+            @media(max-width: 612px) {
+                .item {
+                    flex-grow: 0.7;
+                }
+            }
+        }
+    }
+}
+
+// kết thúc css footer
+// @media (max-width:1200px) {
+//     .item {
+//         width: 33.333%;
+//     }
+// }
